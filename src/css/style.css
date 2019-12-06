@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light");
+@import url("https://fonts.googleapis.com/css?family=Sacramento");
+body {
+  margin-top: 56px !important;
+}
+/* New Color: #8f5acb */
+/* New Color: rgba(143, 90, 203, 0.6) */
+/* Old Color: #bb83cc */
+/* Old Color: rgba(187, 131, 204, 0.6) */
+.navbar {
+  box-shadow: 2px 2px 5px #f0f0f0;
+  position: fixed;
+  background: #f2f2f2; }
+  .navbar .navbar-brand h3 {
+    font-family: 'Sacramento';
+    font-weight: bold;
+    color: #8f5acb;
+    text-align: center;
+    margin-bottom: -5px; }
+  .navbar #logo-navbar-middle {
+    cursor: auto; }
+  .navbar .nav-link {
+    color: #8f5acb !important; }
+  .navbar .nav-link:hover {
+    color: #a85fb7 !important; }
+  .navbar .nav-link img {
+    opacity: 0.75;
+  }
+
+#home {
+  /* margin-top: 56px; */
+  background: url("../img/newborn-overlay-bw.jpeg");
+  height: auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff; }
+  #home .primary-overlay {
+    background-color: rgba(143, 90, 203, 0.6);
+    top: 0;
+    left: 0;
+    height: auto; }
+  #home a:hover {
+    color: #8f5acb !important; }
+
+#about {
+  background-color: #f2f2f2; }
+  #about .about-header {
+    width: 75%;
+    margin: auto;
+    border-bottom: 2px #ddd solid; }
+    #about .about-header h1 {
+      color: #8f5acb; }
+  #about .card {
+    background-color: #f2f2f2;
+    border: 2px #8f5acb solid; }
+    #about .card h3 {
+      color: #8f5acb; }
+  #about img {
+    margin-top: -50px; }
+  #about .fa {
+    font-size: 25px;
+    color: #8f5acb; }
+  #about h2, #about h4 {
+    color: #8f5acb; }
+
+#services {
+  background: url("../img/holding-foot.jpeg");
+  height: auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff; }
+  #services .primary-overlay {
+    background-color: rgba(143, 90, 203, 0.6);
+    margin: auto;
+    top: 0;
+    left: 0; }
+    #services .primary-overlay .about-header {
+      width: 100%;
+      margin: auto;
+      border-bottom: 2px #ddd solid; }
+      #services .primary-overlay .about-header h1 {
+        color: #8f5acb; }
+    #services .primary-overlay .card {
+      margin: auto;
+      border: 2px #f2f2f2 solid;
+      background: none;
+      color: #fff; }
+      #services .primary-overlay .card .card-header {
+        padding: 0;
+        margin: 0; }
+      #services .primary-overlay .card img {
+        opacity: 0.7; }
+      #services .primary-overlay .card a:hover {
+        color: #8f5acb; }
+
+#contact {
+  background-color: #f2f2f2; }
+  #contact img {
+    opacity: 0.65;
+  }
+  #contact .about-header {
+    width: 75%;
+    margin: auto;
+    border-bottom: 2px #ddd solid; }
+    #contact .about-header h1 {
+      color: #8f5acb; }
+  #contact .card {
+    border: none;
+    background: none; }
+    #contact .card .card-header {
+      color: #8f5acb;
+      background-color: #f2f2f2;
+      border-bottom: none; }
+    #contact .card .form-group input, #contact .card .form-group textarea {
+      border: 2px rgba(143, 90, 203, 0.6) solid;
+      background: none; }
+
+#main-footer {
+  background-color: rgba(143, 90, 203, 0.75);
+  height: auto; }
+  #main-footer a {
+    font-size: 2em;
+    color: #fff; }
+
+#basicModal .modal-header {
+  background-color: #f2f2f2; }
+  #basicModal .modal-body {
+    background-color: #f2f2f2; }
+  #basicModal img {
+    opacity: 0.8; }
+
+#premiumModal .modal-header {
+  background-color: #f2f2f2; }
+  #premiumModal .modal-body {
+    background-color: #f2f2f2; }
+  #premiumModal img {
+    opacity: 0.8; }
+
+@media (min-width: 768px) {
+  body {
+    margin-top: 132px !important; }
+  .navbar {
+    opacity: 0.9; }
+  .nav-item {
+    font-size: 2.25em; }
+    .nav-item a {
+      font-family: 'Shadows Into Light'; }
+  /* #home {
+    margin-top: 132px !important; }  */
+}
